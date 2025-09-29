@@ -1,0 +1,25 @@
+# Copy this to config.toml and edit
+
+# Full path to your World of Warcraft folder (the one that contains _retail_, _classic_, etc)
+wow_root = "C:\\Program Files (x86)\\World of Warcraft"
+
+# Which branch to monitor: "_retail_", "_classic_", "_classic_era_", or "_classic_ptr_"
+wow_branch = "_retail_"
+
+# Your server endpoint that accepts multipart form with fields:
+#   - "death": JSON string of the death payload (see code)
+#   - "screenshot": optional file upload (image)
+api_url = "https://your-server.example/upload"
+
+# Optional: If your server wants a Bearer token
+api_token = ""
+
+# If true, the agent will register itself in:
+#   HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+start_with_windows = false
+
+# Seconds around the death time to match a screenshot.
+pair_window_secs = 120
+
+# If true, the agent will download the addon files from GitHub on start.
+update_addon_on_start = true
