@@ -1,0 +1,8 @@
+## Interface: 110002
+## Title: Death Logger
+## Notes: Logs cause of death, location, inventory, and can auto-screenshot on death.
+## Author: 2Lynk
+## Version: 1.1.0
+## SavedVariables: DeathLoggerDB
+
+DeathLogger.lua
